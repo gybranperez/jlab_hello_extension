@@ -110,4 +110,25 @@ The extension ran successfully:
 
 #### After that we tried to install package jupyter-translate in binder/environment.yml:
 
+>
+> ```yaml
+>   - pip:
+>       - jupyterlab-translate
+>
+
+![Maybe](./README%20images/envorinment_yml.png)
+
+
+#### Steps to reproduce error now:
+
+>
+> conda env update --file binder/environment.yml
+> conda activate jlab_hello_env
+> python binder/postBuild
+>
+
+#### Error given after trying to build:
+
+![Maybe](./README%20images/error_given.png)
+
 
