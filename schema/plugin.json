@@ -4,5 +4,12 @@
   "description": "jlab_hello_extension settings.",
   "type": "object",
   "properties": {},
-  "additionalProperties": false
+  "additionalProperties": false,
+  "jupyter.lab.transform": true,
+  "jupyter.lab.internationalization": {
+    "selectors": [
+      "properties/myprop/default"
+    ],
+    "domain": "jlab_hello_extension"
+  }
 }

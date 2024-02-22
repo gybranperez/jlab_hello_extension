@@ -100,6 +100,14 @@ More information are provided within the [ui-tests](./ui-tests/README.md) README
 
 See [RELEASE](RELEASE.md)
 
-#### The extension was created following these steps:
+### The extension was created following these steps:
 
 ![Maybe](./README%20images/creating_extension.png)
+
+The extension ran successfully: 
+
+![Maybe](./README%20images/running_new_extension.png)
+
+#### After that we tried to install package jupyter-translate in binder/environment.yml:
+
+
