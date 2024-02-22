@@ -29,7 +29,41 @@ pip uninstall jlab_hello_extension
 
 -->
 
-### Development install
+
+### The extension was created following these steps:
+
+![Maybe](./README%20images/creating_extension.png)
+
+The extension ran successfully: 
+
+![Maybe](./README%20images/running_new_extension.png)
+
+#### After that we tried to install package jupyter-translate in binder/environment.yml:
+
+>
+> ```yaml
+>   - pip:
+>       - jupyterlab-translate
+>
+
+![Maybe](./README%20images/envorinment_yml.png)
+
+
+#### Steps to reproduce error now:
+
+>
+> conda env update --file binder/environment.yml
+> conda activate jlab_hello_env
+> python binder/postBuild
+>
+
+#### Error given after trying to build:
+
+![Maybe](./README%20images/error_given.png)
+
+
+
+## Development install
 
 Note: You will need NodeJS to build the extension package.
 
@@ -95,40 +129,8 @@ This extension uses [Playwright](https://playwright.dev/docs/intro) for the inte
 More precisely, the JupyterLab helper [Galata](https://github.com/jupyterlab/jupyterlab/tree/master/galata) is used to handle testing the extension in JupyterLab.
 
 More information are provided within the [ui-tests](./ui-tests/README.md) README.
---->
+
 ### Packaging the extension
 
 See [RELEASE](RELEASE.md)
-
-### The extension was created following these steps:
-
-![Maybe](./README%20images/creating_extension.png)
-
-The extension ran successfully: 
-
-![Maybe](./README%20images/running_new_extension.png)
-
-#### After that we tried to install package jupyter-translate in binder/environment.yml:
-
->
-> ```yaml
->   - pip:
->       - jupyterlab-translate
->
-
-![Maybe](./README%20images/envorinment_yml.png)
-
-
-#### Steps to reproduce error now:
-
->
-> conda env update --file binder/environment.yml
-> conda activate jlab_hello_env
-> python binder/postBuild
->
-
-#### Error given after trying to build:
-
-![Maybe](./README%20images/error_given.png)
-
-
+--->
