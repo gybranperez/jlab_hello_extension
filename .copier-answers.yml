@@ -1,0 +1,20 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.5
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: ''
+author_name: gybranperez
+data_format: string
+file_extension: ''
+has_binder: true
+has_settings: true
+kind: frontend
+labextension_name: jlab_hello_extension
+mimetype: ''
+mimetype_name: ''
+project_short_description: A demo for JupyterLab 4 extension implementing translation
+    to other languages.
+python_name: jlab_hello_extension
+repository: https://github.com/gybranperez/jlab_hello_extension
+test: true
+viewer_name: ''
+
