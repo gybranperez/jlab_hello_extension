@@ -2,9 +2,9 @@
 # this environment may also be used locally on Linux/MacOS/Windows, e.g.
 #
 #   conda env update --file binder/environment.yml
-#   conda activate jlab-hello-extension-demo
+#   conda activate jlab_hello_env
 #
-name: jlab-hello-extension-demo
+name: jlab_hello_env
 
 channels:
   - conda-forge

@@ -1,6 +1,8 @@
 # jlab_hello_extension
-
-[![Github Actions Status](https://github.com/gybranperez/jlab_hello_extension/workflows/Build/badge.svg)](https://github.com/gybranperez/jlab_hello_extension/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gybranperez/jlab_hello_extension/main?urlpath=lab)
+<!--
+[![Github Actions Status](https://github.com/gybranperez/jlab_hello_extension/workflows/Build/badge.svg)](https://github.com/gybranperez/jlab_hello_extension/actions/workflows/build.yml)
+-->
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gybranperez/jlab_hello_extension/main?urlpath=lab)
 A demo for JupyterLab 4 extension implementing translation to other languages.
 
 ## Requirements
