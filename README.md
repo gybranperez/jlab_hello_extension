@@ -6,7 +6,7 @@ A demo for JupyterLab 4 extension implementing translation to other languages.
 ## Requirements
 
 - JupyterLab >= 4.0.0
-
+<!---
 ## Install
 
 To install the extension, execute:
@@ -24,6 +24,8 @@ pip uninstall jlab_hello_extension
 ```
 
 ## Contributing
+
+-->
 
 ### Development install
 
@@ -71,6 +73,7 @@ In development mode, you will also need to remove the symlink created by `jupyte
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
 folder is located. Then you can remove the symlink named `jlab_hello_extension` within that folder.
 
+<!---
 ### Testing the extension
 
 #### Frontend tests
@@ -90,7 +93,7 @@ This extension uses [Playwright](https://playwright.dev/docs/intro) for the inte
 More precisely, the JupyterLab helper [Galata](https://github.com/jupyterlab/jupyterlab/tree/master/galata) is used to handle testing the extension in JupyterLab.
 
 More information are provided within the [ui-tests](./ui-tests/README.md) README.
-
+--->
 ### Packaging the extension
 
 See [RELEASE](RELEASE.md)
